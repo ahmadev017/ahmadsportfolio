@@ -12,56 +12,62 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2019 - present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-          />
+  title="BSc in Computer Science"
+  subTitle="KFUEIT University (2023 - Present)"
+  result="Student"
+  des="Currently enrolled in the 4th semester, focusing on core computer science subjects such as Data Structures, Algorithms, and Web Development. "
+/>
+
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
+            title="Intermediate in computer science (ICS)"
+            subTitle="Punjab College (2021 - 2023)"
+            result="Completed"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+  title="Secondary School Education"
+  subTitle="National Garrison Secondary School (2019 - 2021)"
+  result="A+ Grade"
+  des="Completed matriculation with a strong foundation in Science subjects including Physics, Chemistry, and Mathematics. Developed discipline, teamwork, and a consistent academic performance throughout."
+/>
+
         </div>
       </div>
       {/* part Two */}
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2023 - Present</p>
+<h2 className="text-3xl md:text-4xl font-bold">Project Experience</h2>
+
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
-          />
-          <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-          />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
+  title="AI Blog Generator"
+  subTitle="MERN Stack + OpenAI API | 2025"
+  result="Solo Project"
+  des="Created an AI-powered blog writing app where users can generate high-quality content using OpenAI's GPT models. Includes blog categories, content editor, and user authentication."
+/>
+
+<ResumeCard
+  title="Doctor Appointment Booking App"
+  subTitle="MERN Stack | 2025"
+  result="Solo Project"
+  des="Developed a full-stack web app for booking appointments. Includes patient login, doctor/admin dashboard, time slot selection, and payment integration."
+/>
+
+<ResumeCard
+  title="Movie List App"
+  subTitle="React.js | 2025"
+  result="Practice Project"
+  des="Built a responsive movie listing interface using an external API. Implemented features like search, filtering, and single movie detail pages."
+/>
+
         </div>
       </div>
     </motion.div>

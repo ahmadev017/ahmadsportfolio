@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ResumeCard = ({title,subTitle,result,des}) => {
+const ResumeCard = ({title,subTitle,result,des,link}) => {
   return (
     <div className="w-full h-1/3 group flex">
       <div className="w-10 h-[6px] bgOpacity mt-16 relative">
@@ -27,6 +27,18 @@ const ResumeCard = ({title,subTitle,result,des}) => {
         <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
           {des}
         </p>
+        {/* Verification Link */}
+        {link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-designColor text-sm underline hover:text-white transition duration-200"
+          >
+            View Certificate
+          </a>
+        )}
+        
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -8,40 +8,46 @@ const ContactLeft = () => {
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}
-        alt="contactImg"
+        alt="Ahmad Raza"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+        <h3 className="text-3xl font-bold text-white">Ahmad Raza</h3>
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          I'm a self-taught web developer passionate about turning ideas into real-world applications. 
+          Currently building full-stack projects and growing one line of code at a time.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          <span className="font-semibold text-white">Phone:</span> 
+          <span className="text-lightText">+92 3106546012</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          <span className="font-semibold text-white">Email:</span> 
+          <span className="text-lightText">ahmadaraza01708@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
-        </div>
+  <a href="https://www.facebook.com/share/1ATcUwYdNg/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaFacebookF />
+  </a>
+  <a href="https://www.instagram.com/ahmad_raza017?igsh=MWx5cW4yYjBkMHF3&utm_source=qr" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaInstagram />
+  </a>
+  <a href="http://linkedin.com/in/ahmad-raza-dev" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaLinkedinIn />
+  </a>
+  <a href="https://github.com/ahmadev017" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaGithub />
+  </a>
+</div>
+
       </div>
     </div>
   );
-}
+};
 
-export default ContactLeft
+export default ContactLeft;

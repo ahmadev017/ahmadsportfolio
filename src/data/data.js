@@ -1,42 +1,44 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaReact, FaLaptopCode, FaServer, FaCodeBranch } from "react-icons/fa";
+import { SiTailwindcss, SiMongodb, SiFirebase } from "react-icons/si";
+import { MdOutlineSettingsEthernet } from "react-icons/md"; // for Context API icon
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <FaReact />,
+    title: "Frontend Development",
+    des: "Building modern, responsive user interfaces using React.js, Tailwind CSS, and JavaScript.",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <FaServer />,
+    title: "Backend Development",
+    des: "Creating powerful REST APIs using Node.js, Express.js, and MongoDB for full-stack apps.",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <SiTailwindcss />,
+    title: "Modern UI Design",
+    des: "Designing clean, responsive interfaces using Tailwind CSS with a strong focus on user experience.",
   },
   {
     id: 4,
-    icon: <FaMobile />,
-    title: "Mobile Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <MdOutlineSettingsEthernet />,
+    title: "Context API",
+    des: "Managing global state in React apps using Context API for better structure and reusability.",
   },
   {
     id: 5,
-    icon: <SiAntdesign />,
-    title: "UX Design",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <SiFirebase />,
+    title: "Authentication",
+    des: "Implementing secure login systems using Firebase Auth and JWT for protected routes.",
   },
   {
     id: 6,
-    icon: <FaGlobe />,
-    title: "Hosting Websites",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <FaCodeBranch />,
+    title: "Version Control",
+    des: "Using Git and GitHub for collaborative development, version control, and project deployment.",
   },
 ];
+
