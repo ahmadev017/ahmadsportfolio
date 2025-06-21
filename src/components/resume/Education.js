@@ -17,7 +17,7 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-  title="BSc in Computer Science"
+  title="BS in Computer Science"
   subTitle="KFUEIT University (2023 - Present)"
   result="Student"
   des="Currently enrolled in the 4th semester, focusing on core computer science subjects such as Data Structures, Algorithms, and Web Development. "

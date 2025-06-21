@@ -12,6 +12,7 @@ import prescripto from "./images/projects/prescripto.png";
 import prescriptoAdmin from "./images/projects/prescriptoAdmin.png";
 import quickBlog from "./images/projects/quickBlog.png";
 import BlogAdmin from "./images/projects/BlogAdmin.png";
+import Adminn from "./images/projects/adminn.png";
 import quickThumbnail2 from "./images/projects/quickThumbnail2.jpg";
 import prescriptoThumbnail from "./images/projects/prescriptoThumbnail.jpg";
 import prescriptoThumbnail2 from "./images/projects/prescriptoThumbnail2.jpg";
@@ -60,5 +61,6 @@ export {
   testimonial11,
   testimonial22,
   testimonial33,
-  testimonial44
+  testimonial44,
+  Adminn
 };

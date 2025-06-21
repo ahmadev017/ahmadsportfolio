@@ -9,7 +9,8 @@ import {
   prescriptoThumbnail2,
   portfolioss,
   airbnb,
-  animated
+  animated,
+  Adminn
 } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
@@ -35,15 +36,15 @@ const Projects = () => {
           website="https://prescripto-new.vercel.app/"
         />
         <ProjectsCard
-          title="Admin Panel (Appointment App)"
+          title="Admin & Doctor panel (Appointment App)"
           des="Admin dashboard for managing users, doctors, and appointments. Features include secure login, dashboard analytics, and request handling."
-          src={prescriptoAdmin}
+          src={Adminn}
           github="https://github.com/ahmadev017/prescripto-admin"
           website="https://prescripto-admin-new.vercel.app/"
         />
         <ProjectsCard
           title="AI Blog App"
-          des="A blog publishing platform that uses AI to summarize articles and suggest relevant tags. Includes rich text editor, categories, and admin controls."
+          des="A fullstack blog publishing platform that uses AI to summarize articles and suggest relevant tags. Includes rich text editor, categories, and admin controls."
           src={quickThumbnail2}
           github="https://github.com/ahmadev017/AIBlogApp"
           website="https://my-ai-blog-app.vercel.app/"
@@ -66,8 +67,8 @@ const Projects = () => {
           title="Animated Portfolio"
           des="A visually engaging portfolio website with animated transitions, and a clean layout. Lack responsiveness but Ideal for modern frontend showcasing."
           src={animated}
-          github="https://github.com/ahmadev017/animated-portfolio"
-          website="https://animatted-portfollio.netlify.app/"
+          github="https://github.com/ahmadev017/portfolio"
+          website="https://zapdportfolio.netlify.app/"
         />
       </div>
     </section>
