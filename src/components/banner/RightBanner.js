@@ -1,5 +1,5 @@
 import React from 'react'
-import { ahmad3 } from "../../assets/index";
+import { ahmad3} from "../../assets/index";
 
 const RightBanner = () => {
   return (

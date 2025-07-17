@@ -4,6 +4,7 @@ import ahmad2 from "./images/ahmad2.jpg"
 import bannerImg from "./images/bannerImg.png";
 import ahmad1 from "./images/ahmad1.png";
 import ahmad3 from "./images/ahmad3.png";
+import ahmad5 from "./images/ahmad5.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import airbnb from "./images/projects/airbnb.png";
@@ -19,6 +20,7 @@ import prescriptoThumbnail2 from "./images/projects/prescriptoThumbnail2.jpg";
 import portfolioss from "./images/projects/portfolioss.png";
 
 import projectThree from "./images/projects/projectThree.jpeg";
+import project2 from "./images/projects/project2.png";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
@@ -62,5 +64,7 @@ export {
   testimonial22,
   testimonial33,
   testimonial44,
-  Adminn
+  Adminn,
+  ahmad5,
+  project2
 };

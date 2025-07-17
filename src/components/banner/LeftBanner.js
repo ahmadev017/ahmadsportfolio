@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { FaDownload } from 'react-icons/fa';
 import Media from './Media';
 
 const LeftBanner = () => {
@@ -11,7 +12,7 @@ const LeftBanner = () => {
       delaySpeed: 2000,
     });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full  lgl:w-1/2 flex flex-col gap-10 mt-20">
       <div className="flex flex-col gap-5">
         <div className=' flex flex-col justify-center gap-4 '>
           <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
@@ -38,6 +39,7 @@ const LeftBanner = () => {
 
 
         </p>
+       
       </div>
      {/* Media */}
      <Media />

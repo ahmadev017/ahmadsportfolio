@@ -47,6 +47,13 @@ const Education = () => {
 
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+
+          <ResumeCard
+  title="AI Learning platform"
+  subTitle="Nextjs | 2025"
+  result="Solo Project"
+  des="Built a full-stack AI-driven platform where users can generate and enroll in custom learning courses. Features include Gemini and Youtube API for AI course generation."
+/>
           <ResumeCard
   title="AI Blog Generator"
   subTitle="MERN Stack + OpenAI API | 2025"
@@ -61,12 +68,7 @@ const Education = () => {
   des="Developed a full-stack web app for booking appointments. Includes patient login, doctor/admin dashboard, time slot selection, and payment integration."
 />
 
-<ResumeCard
-  title="Movie List App"
-  subTitle="React.js | 2025"
-  result="Practice Project"
-  des="Built a responsive movie listing interface using an external API. Implemented features like search, filtering, and single movie detail pages."
-/>
+
 
         </div>
       </div>

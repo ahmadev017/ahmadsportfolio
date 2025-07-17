@@ -10,7 +10,8 @@ import {
   portfolioss,
   airbnb,
   animated,
-  Adminn
+  Adminn,
+  project2
 } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
@@ -28,6 +29,13 @@ const Projects = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 mt-10">
+        <ProjectsCard
+          title="AI Learning Platform"
+          des=" a full-stack AI-driven platform where users can generate and enroll in custom learning courses. Features include Gemini youtube API for AI course generation."
+          src={project2}
+          github="https://github.com/ahmadev017/AI-learning-platform"
+          website="https://ai-learning-platform-theta.vercel.app/"
+        />
         <ProjectsCard
           title="Appointment Booking App"
           des="A full-stack medical appointment booking platform with user authentication, doctor availability, appointment scheduling, and Stripe payment integration."
