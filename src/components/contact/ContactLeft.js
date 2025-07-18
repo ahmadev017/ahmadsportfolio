@@ -16,7 +16,7 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          I'm a self-taught web developer passionate about turning ideas into real-world applications. 
+          I'm a self-taught fullstack Nextjs developer passionate about turning ideas into real-world applications. 
           Currently building full-stack projects and growing one line of code at a time.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">

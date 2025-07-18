@@ -65,7 +65,7 @@ const Navbar = () => {
               <div className='flex flex-col gap-5'>
                 <img className="w-20" src={ahmad} alt="Ahmad Raza Logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  I’m Ahmad Raza, a passionate MERN stack developer and UI/UX enthusiast from Pakistan,
+                  I’m Ahmad Raza, a passionate MERN stack & Nextjs developer and UI/UX enthusiast from Pakistan,
                   dedicated to creating modern web solutions and building a successful global career.
                 </p>
               </div>

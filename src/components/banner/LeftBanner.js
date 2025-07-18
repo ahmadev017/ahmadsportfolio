@@ -35,7 +35,7 @@ const LeftBanner = () => {
         </div>
         
         <p className="text-base font-bodyFont leading-6 tracking-wide mt-6 md:mt-0">
-          Hi, I'm Ahmad Raza — a web developer and Computer Science student from Pakistan. I’m learning the MERN stack and love building modern, responsive websites. I'm focused on improving my skills, creating real-world projects, and working towards a successful career in tech.
+          Hi, I'm Ahmad Raza — a web developer and Computer Science student from Pakistan. I’m learning the MERN stack & Nextjs and love building modern, responsive websites. I'm focused on improving my skills, creating real-world projects, and working towards a successful career in tech.
 
 
         </p>
